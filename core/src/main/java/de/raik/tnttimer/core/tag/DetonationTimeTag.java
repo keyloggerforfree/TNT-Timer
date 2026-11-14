@@ -29,6 +29,6 @@ public class DetonationTimeTag extends ComponentNameTag {
   @Override
   protected void renderSingle(Stack stack, SubmissionCollector submissionCollector,
       EntitySnapshot snapshot, Component component) {
-    this.submitText(stack, submissionCollector, snapshot, component, 0.0F, -45.0F);
+    this.submitText(stack, submissionCollector, snapshot, component, 0.0F, 0.0F);
   }
 }
